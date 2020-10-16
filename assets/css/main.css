@@ -362,6 +362,8 @@ input, select, textarea {
 
 		.row.aln-middle {
 			align-items: center;
+			margin-left: auto;
+			white-space: pre;
 		}
 
 		.row.aln-bottom {
@@ -525,7 +527,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 0 0 0 1.5em;
+				/* padding: 0 0 0 1.5em; */
 			}
 
 			.row.gtr-uniform {
@@ -768,7 +770,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						/* padding: 0 0 0 1.5em; */
 					}
 
 					.row.gtr-uniform {
@@ -1013,7 +1015,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						/* padding: 0 0 0 1.5em; */
 					}
 
 					.row.gtr-uniform {
@@ -1258,7 +1260,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						/* padding: 0 0 0 1.5em; */
 					}
 
 					.row.gtr-uniform {
@@ -1503,7 +1505,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						/* padding: 0 0 0 1.5em; */
 					}
 
 					.row.gtr-uniform {
@@ -1748,7 +1750,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						/* padding: 0 0 0 1.5em; */
 					}
 
 					.row.gtr-uniform {
@@ -3962,6 +3964,12 @@ input, select, textarea {
 	width: 110px;
 }
 
+.edu {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+}
+
 .flask {
 	height: 150px;
 	width: 150px;
@@ -3987,4 +3995,12 @@ input, select, textarea {
 
 .skill {
 	text-align: center;
+}
+
+.zenmo {
+	justify-content: flex-end;
+}
+
+.valign {
+	align-items: center;
 }
